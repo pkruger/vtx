@@ -32,11 +32,16 @@
 --      selected frequency - 20MHz
 
 -- INSTALLATION:
--- 1. Put the script in the /Scripts/Telemetry folder of the SD card in your Taranis.
--- 2. On the "Display" tab/menu of a model (after the Telemetry screen), choose a 
---    screen of Screen 1-4.  Press Enter and select script.  For script, select the
---    name of this script from the list.
+-- 1. Put the Lua Compiled File (not the .lua script file) to the /Scripts/Telemetry folder 
+--    of the SD card in your Taranis.
+-- 2. On the "Display" tab/menu of a model (after the Telemetry screen), choose a screen of 
+--    Screen 1-4.  Press Enter and select script.  For script, select the name of this script 
+--    from the list.
 -- 3. You can also run this script in the radio simulator in Open TX Companion.
+-- 4. If you run the script and get a Script Panic Out Of Memory error on your Taranis, make 
+--    sure you copied the Lua Compiled File and not the .lua script file - that file is not 
+--    needed on the Taranis.  You may also have to delete other scripts on your Taranis that 
+--    you don't need.
 
 -- USAGE:
 -- 1. The script uses 2 pages, the first is a table of all the available frequencies.
